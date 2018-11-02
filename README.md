@@ -66,6 +66,11 @@ For training on [Pascal VOC](http://host.robots.ox.ac.uk/pascal/VOC/), run:
 # Running directly from the repository:
 keras_retinanet/bin/train.py pascal /path/to/VOCdevkit/VOC2007
 
+# Note: 
+Sometimes the VOC2017 dataset missing files. 
+One has to add those files while executing the code. 
+select few randomly file indexes from training dataset and put it on Test dataset 
+
 # Using the installed script:
 retinanet-train pascal /path/to/VOCdevkit/VOC2007
 ```
